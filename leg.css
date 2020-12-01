@@ -1,0 +1,46 @@
+body{
+  background-image: url(images/200.gif);
+  background-size: cover;
+  height: 100vh;
+  margin: 0px;
+  cursor: url(images/wash.png), auto;
+
+
+}
+
+
+.leg1{
+  position: absolute;
+  top: 30px;
+  right: -100px;
+  transition-property: all;
+  transition-duration: 0.5s;
+
+}
+
+.leg2{
+  position: absolute;
+  top: 30px;
+  left:10px;
+  transition-property: all;
+  transition-duration: 0.5s;
+
+}
+
+.leg4{
+  position: absolute;
+  top: 400px;
+  left: 520px;
+  transition-property: all;
+  transition-duration: 0.5s;
+
+}
+
+.leg5{
+  position: absolute;
+  top: 10px;
+  right: -100px;
+  transition-property: all;
+  transition-duration: 0.5s;
+
+}

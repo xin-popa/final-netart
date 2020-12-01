@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+
+<meta charset="utf-8">
+<link rel="stylesheet" href="intro.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>what you see</title>
+<meta name="description" content="what you see">
+<meta name="author" content="Xin">
+
+<meta name="og:title" content="what you see">
+<meta name="og:description" content="what you see">
+<meta name="og:site_name" content="what you see">
+<meta name="og:url" content="what you see">
+
+</head>
+
+<body>
+  <div class="what">
+      <pre>
+
+    # \    /\    / |     |    /\  -------     \     /   /----\   |     |   |------ |----- |----- #
+  # #  \  /  \  /  |-----|   /--\    |         \   /   |      |  |     |   |_____| |_____ |_____ # #
+    #   \/    \/   |     |  /    \   |           |      \----/    \___/    ______| |_____ |_____ #
+
+*******----*******----*******----*******----*******----*******----*******----*******----*******----*******----*******
+  </pre>
+  </div>
+  <div class="object">
+    <pre>
+===============================                               =================================
+#  _________________________  #                               # ————————————————————————————— #
+# |         ------<input type="radio"checked="true">        | #                               # |                           | #
+# |   ____   ____   ____    | #                               # |                           | #
+# |  |    | |    | |    |   | #                               # |                           | #
+# |  |____| |____| |____|   | #                               # |                           | #
+# |   ____   ____   ____    | #                               # |                           | #
+# |  |    | |    | |    |   | #                               # |                           | #
+# |  |____| |____| |____|   | #                               # |                           | #
+# |   ____   ____   ____    | #                               # |                           | #
+# |  |    | |    | |    |   | # >>>--->>>---       >>--->>>---# |———————————————————————————| #
+# |  |____| |____| |____|   | #                               =================================
+# |   ____   ____           | #                               .           ||======||          .
+# |  |    | |    |          | #                               .      ||=================||    .
+# |  |____| |____|          | #                               .      ||=================||    .
+# |                         | #                               .   __________________________  .
+# |                         | #                               .   / Ω Ω Ω Ω Ω Ω Ω Ω Ω Ω \  .
+# |                         | #                               . / Ω Ω Ω Ω Ω Ω Ω Ω Ω Ω Ω  \ .
+# |         <input type="radio"checked="true"><input type="radio"checked="true"><input type="radio"checked="true">           | #                                                               .
+# |_________________________| #                               ---------------------------------
+===============================                                .                              .
+
+    </pre>
+    </div>
+
+    <div class="eyes">
+      <div class="eye">
+        <div class="ball"></div>
+      </div>
+
+      <div class="eye">
+        <div class="ball"></div>
+      </div>
+    </div>
+
+<script>
+  var balls = document.getElementsByClassName("ball");
+  document.onmousemove = function(){
+    var x = event.clientX * 100 / window.innerWidth + "%";
+    var y = event.clientY * 100 / window.innerHeight + "%";
+
+
+    for(var i=0; i<2; i++){
+      balls[i].style.left = x;
+      balls[i].style.top = y;
+      balls[i].style.transform = "translate(-"+x+", -"+y+")";
+    }
+  }
+
+  </script>
+
+
+<input type="checkbox" checked="true">
+
+<a href="select.html" target="_blank">
+  <div class="bottom">
+
+  </div>
+</a>
+
+  </body>

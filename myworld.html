@@ -1,0 +1,154 @@
+
+
+<html>
+<head>
+  <title>myworld</title>
+  <script src="aframe-v0.7.1.js"></script>
+  <script src="aframe-animation-component.js"></script>
+  <script src="https://unpkg.com/aframe-gltf-part-component/dist/aframe-gltf-part-component.min.js"></script>
+  <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v3.8.4/dist/aframe-extras.min.js"></script>
+  <script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script>
+  <script src="a-frame-href.js"></script>
+
+
+
+</head>
+<body>
+<a-scene>
+
+    <a-assets>
+      <img id="ww" src="images/ww.jpg">
+      <img id="cat" src="models/cat.jpg">
+      <img id="dog" src="models/dog.jpg">
+      <img id="bath" src="models/bath.jpg">
+      <img id="bath1" src="models/bath1.jpg">
+
+      <img id="leaf1" src="models/leaf1.jpg">
+      <img id="leaf2" src="models/leaf2.jpg">
+      <img id="garden1" src="models/garden1.jpg">
+      <img id="garden2" src="models/garden2.jpg">
+      <img id="flower" src="models/flower.jpg">
+
+
+      <img id="back2" src="models/back2.jpg">
+
+      <img id="friute" src="models/friute.jpg">
+
+
+      <a-asset-item id="cat-obj" src="models/cat.obj"></a-asset-item>
+      <a-asset-item id="cat-mtl" src="models/cat.mtl"></a-asset-item>
+
+
+      <a-asset-item id="dog-obj" src="models/dog.obj"></a-asset-item>
+      <a-asset-item id="dog-mtl" src="models/dog.mtl"></a-asset-item>
+
+      <a-asset-item id="bath-obj" src="models/bath.obj"></a-asset-item>
+      <a-asset-item id="bath-mtl" src="models/bath.mtl"></a-asset-item>
+
+    
+
+      <a-asset-item id="leaf-obj" src="models/leaf.obj"></a-asset-item>
+      <a-asset-item id="leaf-mtl" src="models/leaf.mtl"></a-asset-item>
+
+      <a-asset-item id="garden-obj" src="models/garden.obj"></a-asset-item>
+      <a-asset-item id="garden-mtl" src="models/garden.mtl"></a-asset-item>
+
+      <a-asset-item id="flower-obj" src="models/flower.obj"></a-asset-item>
+      <a-asset-item id="flower-mtl" src="models/flower.mtl"></a-asset-item>
+
+      <a-asset-item id="hitea-obj" src="models/hitea.obj"></a-asset-item>
+      <a-asset-item id="hitea-mtl" src="models/hitea.mtl"></a-asset-item>
+
+      <a-asset-item id="friute-obj" src="models/friute.obj"></a-asset-item>
+      <a-asset-item id="friute-mtl" src="models/friute.mtl"></a-asset-item>
+
+
+
+      </a-assets >
+
+      <a-entity
+      obj-model="obj:models/cat.obj"
+      position="-53.210 2.224 -182.056"
+
+      rotation="-5.558 -107.659 -9.454" scale="301.240 350 350"
+      material="src:#cat">
+      </a-entity>
+
+      <a-entity
+      obj-model="obj:models/dog.obj"
+      position="-43.210 3.224 -150.056"
+
+      rotation="-5.558 -107.659 -9.454" scale="301.240 350 350"
+      material="src:#dog">
+      </a-entity>
+
+      <a-entity
+      obj-model="obj:models/bath.obj"
+      position="-475.270 51.5026 -234.643"
+
+      rotation="-22.838 -71.889 12.766" scale="301.110 342.140 350.510"
+      material="src:#bath">
+      </a-entity>
+
+      <a-entity
+      obj-model="obj:models/garden.obj"
+      position="243.768 -1700.155 -3100.297"
+
+      rotation="-19.238 -65.499 18.776" scale="301.110 338.720 350.510"
+      material="src:#garden1">
+      </a-entity>
+
+
+      <a-entity
+      obj-model="obj:models/leaf.obj"
+      position="2651.602 -248.025 -1855.666"
+
+      rotation="-5.558 -107.659 -9.454" scale="301.240 350 350"
+      material="src:#leaf1">
+      </a-entity>
+
+      <a-entity
+      obj-model="obj:models/flower.obj"
+      position="155.455 -136.355 -322.136"
+
+      rotation="15.172 -102.279 6.496" scale="600.000 500.000 500.000"
+      material="src:#flower">
+      </a-entity>
+
+      <a-entity
+      obj-model="obj:models/hitea.obj"
+      position="1417.265 210.247 -1194.056"
+
+      rotation="15.172 -169.589 2.136" scale="700.000 600.000 1000.000"
+      material="src:#back2">
+      </a-entity>
+
+      <a-entity
+      obj-model="obj:models/fruite.obj"
+      position="-53.210 2.224 -182.056"
+
+      rotation="-5.558 -107.659 -9.454" scale="301.240 350 350"
+      material="src:#fruite">
+      </a-entity>
+
+      <a-entity light="type: ambient; color: #BBB"></a-entity>
+
+
+      <a-entity
+        light="type: directional; color: #FFF; intensity: 0.6"
+        position="-0.5 1 1"
+      ></a-entity>
+
+
+      <a-sky src="#ww"></a-sky>
+
+
+     <a-entity position="0 0 0">
+        <a-camera position="0 1 9"><a-cursor></a-cursor></a-camera>
+     </a-entity>
+
+   </a-scene>
+   </body>
+
+
+</html>

@@ -1,0 +1,80 @@
+newmtl material0000
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Tr 0.000000
+illum 1
+Ns 1.000000
+map_Kd textured_material0000_8hUgEeRu_map_Kd.jpg
+newmtl material0001
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Tr 0.000000
+illum 1
+Ns 1.000000
+map_Kd textured_material0001_8hUgEeRu_map_Kd.jpg
+newmtl material0002
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Tr 0.000000
+illum 1
+Ns 1.000000
+map_Kd textured_material0002_8hUgEeRu_map_Kd.jpg
+newmtl material0003
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Tr 0.000000
+illum 1
+Ns 1.000000
+map_Kd textured_material0003_8hUgEeRu_map_Kd.jpg
+newmtl material0004
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Tr 0.000000
+illum 1
+Ns 1.000000
+map_Kd textured_material0004_8hUgEeRu_map_Kd.jpg
+newmtl material0005
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Tr 0.000000
+illum 1
+Ns 1.000000
+map_Kd textured_material0005_8hUgEeRu_map_Kd.jpg
+newmtl material0006
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Tr 0.000000
+illum 1
+Ns 1.000000
+map_Kd textured_material0006_8hUgEeRu_map_Kd.jpg
+newmtl material0007
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Tr 0.000000
+illum 1
+Ns 1.000000
+map_Kd textured_material0007_8hUgEeRu_map_Kd.jpg
+newmtl material0008
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Tr 0.000000
+illum 1
+Ns 1.000000
+map_Kd textured_material0008_8hUgEeRu_map_Kd.jpg
+newmtl material0009
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Tr 0.000000
+illum 1
+Ns 1.000000
+map_Kd textured_material0009_8hUgEeRu_map_Kd.jpg

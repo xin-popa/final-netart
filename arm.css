@@ -1,0 +1,48 @@
+
+body{
+  background-image: url(images/200.gif);
+
+  background-size: cover;
+  height: 100vh;
+  margin: 0px;
+  cursor: url(images/wash.png), auto;
+
+
+}
+
+
+.clean{
+  position: absolute;
+  top: 30px;
+  right: -100px;
+  transition-property: all;
+  transition-duration: 0.5s;
+
+}
+
+.redcat{
+  position: absolute;
+  top: 30px;
+  left:10px;
+  transition-property: all;
+  transition-duration: 0.5s;
+
+}
+
+.pointcat{
+  position: absolute;
+  top: 400px;
+  left: 520px;
+  transition-property: all;
+  transition-duration: 0.5s;
+
+}
+
+.phone{
+  position: absolute;
+  top: 10px;
+  right: -100px;
+  transition-property: all;
+  transition-duration: 0.5s;
+
+}
